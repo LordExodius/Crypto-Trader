@@ -1,25 +1,25 @@
-<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notesT</help_text><element><id>UMLClass</id><coordinates><x>438</x><y>375</y><w>220</w><h>110</h></coordinates><panel_attributes>User
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notesT</help_text><element><id>UMLClass</id><coordinates><x>311</x><y>213</y><w>220</w><h>110</h></coordinates><panel_attributes>User
 --
 traderList: TraderList
 tradeLog: TradeLog
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1118</x><y>175</y><w>230</w><h>140</h></coordinates><panel_attributes>TradeStrategy
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>991</x><y>13</y><w>230</w><h>140</h></coordinates><panel_attributes>TradeStrategy
 --
 conditions: HashMap&lt;String, double[]&gt;
 targetStock: String
 targetQuantity: int
 targetPrice: double
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>788</x><y>175</y><w>210</w><h>130</h></coordinates><panel_attributes>TradingBroker
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>661</x><y>13</y><w>210</w><h>130</h></coordinates><panel_attributes>TradingBroker
 --
 brokerName: String
 numTrades: int
 coinList: String[]
 strategy: TradingStrategy
 --
-trade(): TradeResult</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>438</x><y>605</y><w>210</w><h>70</h></coordinates><panel_attributes>CoinAPI
+trade(): TradeResult</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>311</x><y>443</y><w>210</w><h>70</h></coordinates><panel_attributes>CoinAPI
 --
 coinInfo: HashMap&lt;String, int[]&gt;
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1128</x><y>375</y><w>210</w><h>150</h></coordinates><panel_attributes>TradeResult
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1001</x><y>213</y><w>210</w><h>150</h></coordinates><panel_attributes>TradeResult
 --
 broker: TradingBroker
 strategy: TradingStrategy
@@ -27,23 +27,23 @@ coinName: String
 action: String
 quantity: int
 price: double
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>790</x><y>375</y><w>220</w><h>110</h></coordinates><panel_attributes>TradeLog
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>663</x><y>213</y><w>220</w><h>110</h></coordinates><panel_attributes>TradeLog
 --
 entries: ArrayList&lt;TradeResult&gt;
 --
 tradeGraph: TradingActivityGraph
-tradeActivityTable: TradingActivityTable</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>910</x><y>605</y><w>210</w><h>70</h></coordinates><panel_attributes>TradeActivityTable
+tradeActivityTable: TradingActivityTable</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>783</x><y>443</y><w>210</w><h>70</h></coordinates><panel_attributes>TradeActivityTable
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>680</x><y>605</y><w>210</w><h>70</h></coordinates><panel_attributes>TradeActivityGraph
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>553</x><y>443</y><w>210</w><h>70</h></coordinates><panel_attributes>TradeActivityGraph
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>381</y><w>160</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>920</x><y>481</y><w>30</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>850</x><y>481</y><w>30</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>181</y><w>140</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>18;10;120;10</additional_attributes></element><element><id>Relation</id><coordinates><x>988</x><y>181</y><w>150</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;10</additional_attributes></element><element><id>Relation</id><coordinates><x>998</x><y>375</y><w>150</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;10</additional_attributes></element><element><id>Relation</id><coordinates><x>538</x><y>475</y><w>30</w><h>150</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>375</y><w>110</w><h>40</h></coordinates><panel_attributes>lw=2
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>523</x><y>219</y><w>160</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>793</x><y>319</y><w>30</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>723</x><y>319</y><w>30</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>523</x><y>19</y><w>150</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>18;10;130;10</additional_attributes></element><element><id>Relation</id><coordinates><x>861</x><y>19</y><w>150</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;10</additional_attributes></element><element><id>Relation</id><coordinates><x>871</x><y>213</y><w>150</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;130;10</additional_attributes></element><element><id>Relation</id><coordinates><x>411</x><y>313</y><w>30</w><h>150</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>73</x><y>213</y><w>110</w><h>40</h></coordinates><panel_attributes>lw=2
 LoginWindow
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>375</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=-
-constructs &gt;</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>175</y><w>230</w><h>90</h></coordinates><panel_attributes>TraderList
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>173</x><y>213</y><w>160</w><h>40</h></coordinates><panel_attributes>lt=-
+constructs &gt;</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>313</x><y>13</y><w>230</w><h>90</h></coordinates><panel_attributes>TraderList
 --
 traders: ArrayList&lt;TradingBroker&gt;
 --
 performTrade(): ArrayList&lt;TradeResult&gt;
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>260</y><w>30</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element></diagram>
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>413</x><y>98</y><w>30</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element></diagram>
