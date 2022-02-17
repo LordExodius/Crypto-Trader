@@ -1,32 +1,32 @@
 <diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>m1=1
 m2=3
-</help_text><element><id>UMLClass</id><coordinates><x>222</x><y>20</y><w>100</w><h>50</h></coordinates><panel_attributes>LoginServer
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>222</x><y>170</y><w>100</w><h>50</h></coordinates><panel_attributes>Database
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>552</x><y>20</y><w>130</w><h>60</h></coordinates><panel_attributes>User
+</help_text><element><id>UMLClass</id><coordinates><x>242</x><y>30</y><w>100</w><h>50</h></coordinates><panel_attributes>LoginServer
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>242</x><y>140</y><w>100</w><h>50</h></coordinates><panel_attributes>Database
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>572</x><y>30</y><w>130</w><h>60</h></coordinates><panel_attributes>User
 --
 traderList: TraderList
-tradeLog: TradeLog</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>662</x><y>200</y><w>230</w><h>80</h></coordinates><panel_attributes>TradeLog
+tradeLog: TradeLog</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>682</x><y>210</y><w>230</w><h>80</h></coordinates><panel_attributes>TradeLog
 --
 entries: ArrayList&lt;TradeResult&gt;
 tradeGraph: TradingActivityGraph
-tradeActivityTable: TradingActivityTable</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>362</x><y>200</y><w>230</w><h>70</h></coordinates><panel_attributes>TraderList
+tradeActivityTable: TradingActivityTable</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>382</x><y>210</y><w>230</w><h>70</h></coordinates><panel_attributes>TraderList
 --
 traders: ArrayList&lt;TradingBroker&gt;
-coins: ArrayList&lt;String&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>792</x><y>370</y><w>140</w><h>50</h></coordinates><panel_attributes>TradeActivityGraph
+coins: ArrayList&lt;String&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>812</x><y>380</y><w>140</w><h>50</h></coordinates><panel_attributes>TradeActivityGraph
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>602</x><y>370</y><w>140</w><h>50</h></coordinates><panel_attributes>TradeActivityTable
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>622</x><y>380</y><w>140</w><h>50</h></coordinates><panel_attributes>TradeActivityTable
 --
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>392</x><y>350</y><w>160</w><h>110</h></coordinates><panel_attributes>TradingBroker
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>412</x><y>360</y><w>160</w><h>110</h></coordinates><panel_attributes>TradingBroker
 --
 brokerName: String
 numTrades: int
 coinList: String[]
-strategy: TradingStrategy</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>352</x><y>550</y><w>230</w><h>110</h></coordinates><panel_attributes>TradeStrategy
+strategy: TradingStrategy</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>372</x><y>560</y><w>230</w><h>110</h></coordinates><panel_attributes>TradeStrategy
 --
 conditions: HashMap&lt;String, double[]&gt;
 targetStock: String
 targetQuantity: int
-targetPrice: double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>692</x><y>510</y><w>160</w><h>130</h></coordinates><panel_attributes>TradeResult
+targetPrice: double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>712</x><y>520</y><w>160</w><h>130</h></coordinates><panel_attributes>TradeResult
 --
 broker: TradingBroker
 strategy: TradingStrategy
@@ -34,28 +34,29 @@ coinName: String
 action: String
 quantity: int
 price: double
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>312</x><y>10</y><w>260</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
-initializes</panel_attributes><additional_attributes>10;20;240;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>832</x><y>20</y><w>100</w><h>50</h></coordinates><panel_attributes>CoinAPI
---</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>462</x><y>70</y><w>170</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>332</x><y>20</y><w>260</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+initializes</panel_attributes><additional_attributes>10;20;240;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>852</x><y>30</y><w>100</w><h>50</h></coordinates><panel_attributes>CoinAPI
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>482</x><y>80</y><w>170</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>140;10;140;80;10;80;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>622</x><y>70</y><w>180</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1</panel_attributes><additional_attributes>140;10;140;80;10;80;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>642</x><y>80</y><w>180</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
-m2=1</panel_attributes><additional_attributes>10;10;10;80;150;80;150;130</additional_attributes></element><element><id>Relation</id><coordinates><x>462</x><y>450</y><w>40</w><h>120</h></coordinates><panel_attributes>lt=&lt;.
+m2=1</panel_attributes><additional_attributes>10;10;10;80;150;80;150;130</additional_attributes></element><element><id>Relation</id><coordinates><x>482</x><y>460</y><w>40</w><h>120</h></coordinates><panel_attributes>lt=&lt;.
 m1=1
-m2=1</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>672</x><y>10</y><w>180</w><h>50</h></coordinates><panel_attributes>lt=&lt;.
+m2=1</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>692</x><y>20</y><w>180</w><h>50</h></coordinates><panel_attributes>lt=&lt;.
 m1=1
 m2=1
-fetches from</panel_attributes><additional_attributes>160;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>462</x><y>260</y><w>40</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fetches from</panel_attributes><additional_attributes>160;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>482</x><y>270</y><w>40</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
 m1=1
-m2=*</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>410</y><w>110</w><h>120</h></coordinates><panel_attributes>lt=&lt;.
+m2=*</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>680</x><y>420</y><w>110</w><h>120</h></coordinates><panel_attributes>lt=&lt;.
 m1=*
-m2=1</panel_attributes><additional_attributes>90;100;90;50;10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>780</x><y>410</y><w>110</w><h>120</h></coordinates><panel_attributes>lt=&lt;.
+m2=1</panel_attributes><additional_attributes>90;100;90;50;10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>800</x><y>420</y><w>110</w><h>120</h></coordinates><panel_attributes>lt=&lt;.
 m1=*
-m2=1</panel_attributes><additional_attributes>10;100;10;50;80;50;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>270</y><w>120</w><h>120</h></coordinates><panel_attributes>lt=&lt;-
+m2=1</panel_attributes><additional_attributes>10;100;10;50;80;50;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>680</x><y>280</y><w>120</w><h>120</h></coordinates><panel_attributes>lt=&lt;-
 updates
 m1=1
-m2=1</panel_attributes><additional_attributes>10;100;10;50;90;50;90;10</additional_attributes></element><element><id>Relation</id><coordinates><x>790</x><y>270</y><w>100</w><h>120</h></coordinates><panel_attributes>lt=&lt;-
+m2=1</panel_attributes><additional_attributes>10;100;10;50;90;50;90;10</additional_attributes></element><element><id>Relation</id><coordinates><x>810</x><y>280</y><w>100</w><h>120</h></coordinates><panel_attributes>lt=&lt;-
 updates
 m1=1
-m2=1</panel_attributes><additional_attributes>70;100;70;50;10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>60</y><w>90</w><h>130</h></coordinates><panel_attributes>lt=&lt;.
-reads from</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element></diagram>
+m2=1</panel_attributes><additional_attributes>70;100;70;50;10;50;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>70</y><w>90</w><h>90</h></coordinates><panel_attributes>lt=&lt;.
+reads from</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>60</y><w>260</w><h>120</h></coordinates><panel_attributes>lt=&lt;.
+writes to</panel_attributes><additional_attributes>10;100;100;100;100;10;240;10</additional_attributes></element></diagram>
