@@ -1,0 +1,21 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLGeneric</id><coordinates><x>155</x><y>200</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+User</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>175</x><y>410</y><w>320</w><h>110</h></coordinates><panel_attributes>symbol=component
+Database
+--
++boolean authenticate(string username, string password)
++TraderList getTraders(string username)
++TradeLog getTradeLog(string username)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>385</x><y>220</y><w>320</w><h>100</h></coordinates><panel_attributes>symbol=component
+Login Server
+--
++boolean authenticate(string username, string password)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>575</x><y>390</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+Coin API</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>555</x><y>570</y><w>200</w><h>110</h></coordinates><panel_attributes>symbol=component
+Trade Activity Table</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>725</x><y>230</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+Trade Log</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>785</x><y>80</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+Trade Strategy</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>395</x><y>50</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+Trading Broker</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>65</x><y>50</y><w>200</w><h>100</h></coordinates><panel_attributes>symbol=component
+Trader List
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>855</x><y>550</y><w>200</w><h>110</h></coordinates><panel_attributes>symbol=component
+Trade Activity Graph</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>175</x><y>590</y><w>200</w><h>60</h></coordinates><panel_attributes>symbol=component
+Trade Result
+--</panel_attributes><additional_attributes></additional_attributes></element></diagram>
