@@ -1,1 +1,1 @@
-# Crypto-Trader
+# Crypto-Trader-Design
