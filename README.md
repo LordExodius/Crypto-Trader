@@ -1,3 +1,3 @@
-# Crypto-Trader-Design
+# cryptotrader3000-design
 
-UML Diagrams for deliverables 1 and 2.
+UML Diagrams for [cryptotrader3000](https://github.com/LordExodius/cryptotrader3000)
